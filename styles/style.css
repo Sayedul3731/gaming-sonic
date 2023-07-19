@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 /* header styles here  */
 header{
@@ -124,6 +125,70 @@ nav li .youtube{
     background: #4EC5F7;
     color: white;
 }
+/* online games styles here  */
+.online-games-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.online-games-content{
+    text-align: center;
+}
+.online-games-title{
+    font-size: 45px;
+    font-weight: 700px;
+    color: #0b0223;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.online-g-content-desc{
+    font-size: 18px;
+    color: #534c64;
+}
+.online-games-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 340px;
+    height: 480px;
+    position: relative;
+}
+.card img{
+    border-radius: 16px;
+}
+.card-description{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 30px;
+}
+.watch-content{
+    position: absolute;
+    top: 170px;
+    right: 115px;  
+}
+.play{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-bottom: 16px;
+}
+.watch-now{
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
 
 
 
@@ -159,6 +224,13 @@ nav li .youtube{
     .banner-content{
         margin: 0px;
     }
+    .online-games-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        text-align: center;
+    }
 }
 /* medium mobile or tablet responsive here  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -186,5 +258,12 @@ nav li .youtube{
     }
     .banner-content{
         margin: 0px;
+    }
+    .online-games-cards{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card{
+        text-align: center;
     }
 }
