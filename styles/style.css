@@ -267,6 +267,30 @@ nav li .youtube{
     .card{
         text-align: center;
     }
+    .play-instantly-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .play-instantly-content, .play-instantly-img{
+        width: 100%;
+    }
+    .play-instantly-img{
+        position: relative;
+        margin-top: 30px;
+    }
+    .play-instantly-img img{
+        width: 70%;
+        margin-left: 100px;
+    }
+    .play-ins-small-img{
+        width: 80%;
+        position: absolute;
+        top: 150px;
+        left: -80px;
+    }
+    .play-ins-small-img img{
+        width: 50%;
+    }
 }
 /* medium mobile or tablet responsive here  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -301,5 +325,36 @@ nav li .youtube{
     }
     .card{
         text-align: center;
+    }
+    .play-instantly-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .play-instantly-content, .play-instantly-img{
+        width: 100%;
+    }
+    .play-instantly-content{
+        text-align: center;
+    }
+    .play-instantly-content-desc{
+        margin-top: 20px;
+        width: 60%;
+    }
+    .play-instantly-img{
+        position: relative;
+        margin-top: 30px;
+    }
+    .play-instantly-img img{
+        width: 70%;
+        margin-left: 100px;
+    }
+    .play-ins-small-img{
+        width: 80%;
+        position: absolute;
+        top: 300px;
+        left: -80px;
+    }
+    .play-ins-small-img img{
+        width: 50%;
     }
 }
