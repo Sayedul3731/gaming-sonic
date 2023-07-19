@@ -62,3 +62,31 @@ nav li .youtube{
     margin-left: 24px;
     margin-right: 16px;
 }
+
+
+
+/* Responsive styles hera  */
+
+/* small mobile responsive here  */
+@media screen and (max-width:576px) {
+    header{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .header-icon nav{
+        width: 100%;
+    }
+}
+/* medium mobile or tablet responsive here  */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
