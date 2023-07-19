@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header styles here  */
+header{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.header-icon{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-icon img{
+    width: 86px;
+    height: 40px;
+    margin-right: 20px;
+}
+.header-icon-title{
+    font-size: 45px;
+    font-weight: 700px;
+}
+.gammer-first-letter{
+    color: #FF42A5;
+}
+nav{
+    width: 50%;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #3c354f;
+}
+nav ul .follow-us-on{
+    width: 260px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li .youtube{
+    color: red;
+    margin-left: 24px;
+    margin-right: 16px;
+}
