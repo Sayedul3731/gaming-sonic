@@ -1,3 +1,4 @@
+/* shared styles here  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 *{
     font-family: 'Open Sans', sans-serif;
@@ -6,6 +7,12 @@
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
+.primary-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 /* header styles here  */
 header{
     max-width: 1440px;
@@ -138,11 +145,6 @@ nav li .youtube{
     font-weight: 700px;
     color: #0b0223;
 }
-.funny-videos{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    color: transparent;
-    -webkit-background-clip: text;
-}
 .online-g-content-desc{
     font-size: 18px;
     color: #534c64;
@@ -186,6 +188,40 @@ nav li .youtube{
     color: #FF42A5;
     font-size: 20px;
     font-weight: 600px;
+}
+/* play instantly styles here  */
+.play-instantly-container{
+    max-width: 1440px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-instantly-content{
+    width: 50%;
+    text-align: right;
+}
+.play-instantly-content-title{
+    margin: 0 auto;
+    width: 340px;
+    font-size: 45px;
+    font-weight: 700px;
+    line-height: 60px;
+}
+.play-instantly-content-desc{
+    width: 350px;
+    margin: 0 auto;
+}
+.play-instantly-img{
+    position: relative;
+}
+.play-ins-small-img{
+    width: 320px;
+    height: 365px;
+    border-radius: 8px;
+    position: absolute;
+    top: 380px;
+    left: -145px;
 }
 
 
