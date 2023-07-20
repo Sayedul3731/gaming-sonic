@@ -311,11 +311,6 @@ footer{
 .icon{
     margin-right: 40px;
 }
-.fb{
-    background-color: #0165E1;
-    color: white;
-    border-radius: 50%;
-}
 .footer-keywords{
     display: flex;
     justify-content: center;
@@ -470,6 +465,7 @@ footer{
     }
     .footer-last-sentence{
         width: 300px;
+        padding: 20px;
     }
 }
 /* medium mobile or tablet responsive here  */
