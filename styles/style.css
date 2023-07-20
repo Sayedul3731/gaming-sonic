@@ -315,6 +315,58 @@ nav li .youtube{
     line-height: 30px;
     color: #534c64;
 }
+/* careers styles (optional) starts here  */
+.careers-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: white;
+    margin: 0px auto;
+    margin-top: 130px;
+}
+.careers-content{
+    margin-left: 240px;
+}
+.careers-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.careers-description{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.careers-another-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.careers-another-desc-1{
+    width: 250px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 40px;
+}
+.careers-another-desc-2{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 40px;
+    text-align: right;
+}
+.see-all-btn{
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+}
 /* button section styles starts here  */
 .button-container{
     width: 100%;
@@ -524,6 +576,38 @@ footer{
         top: 200px;
         right: 50px;
     }
+    /* careers responsive styles (optional) starts here  */
+    .careers-container{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    .careers-img{
+        width: 100%;
+    }
+    .careers-img img{
+        width: 100%;
+    }
+    .careers-content{
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .careers-description{
+        padding: 0px 10px;
+    }
+    .careers-another-description{
+        flex-direction: column;
+    }
+    .careers-another-desc-1{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .careers-another-desc-2{
+        text-align: left;
+    }
     /* button styles starts here  */
     .button-container{
         width: 100%;
@@ -698,6 +782,34 @@ footer{
         position: absolute;
         top: 360px;
         right: 70px;
+    }
+    .careers-container{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .careers-img{
+        width: 100%;
+    }
+    .careers-img img{
+        width: 100%;
+    }
+    .careers-content{
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .careers-description{
+        padding: 0px 10px;
+    }
+    .careers-another-description{
+        padding: 5px 50px;
+    }
+    .careers-another-desc-2{
+        text-align: right;
     }
     .button-container{
         width: 100%;
