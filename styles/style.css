@@ -646,6 +646,9 @@ footer{
     .btn:hover .btn-title{
         color: rgb(252, 11, 123);
     }
+    .btn:hover .btn-title{
+        color: rgb(252, 11, 123);
+    }
     footer{
         width: 100%;
         height: auto;
