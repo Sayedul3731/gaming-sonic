@@ -80,7 +80,6 @@ nav li .youtube{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .banner-content-container, .banner-img{
     width: 50%;
@@ -145,6 +144,7 @@ nav li .youtube{
     justify-content: baseline;
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 0px;
 }
 .gamer-img{
     width: 60%;
@@ -152,6 +152,7 @@ nav li .youtube{
 }
 .gamer-content{
     width: 40%;
+    margin-top: 30px;
 }
 .gamer-content{
     text-align: right;
