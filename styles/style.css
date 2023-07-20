@@ -15,7 +15,7 @@
     -webkit-background-clip: text;
 }
 
-/* header styles here  */
+/* header styles starts here  */
 header{
     max-width: 1440px;
     display: flex;
@@ -73,7 +73,7 @@ nav li .youtube{
     margin-left: 24px;
     margin-right: 16px;
 }
-/* banner styles here  */
+/* banner styles starts here  */
 .banner-container{
     width: 100%;
     margin: 0px auto;
@@ -138,7 +138,7 @@ nav li .youtube{
     background: #4EC5F7;
     color: white;
 }
-/* gamer section (optional) styles here  */
+/* gamer section (optional) styles starts here  */
 .gamer-container{
     width: 100%;
     display: flex;
@@ -184,7 +184,7 @@ nav li .youtube{
     color: #534c64;
     line-height: 60px;
 }
-/* online games styles here  */
+/* online games styles starts here  */
 .online-games-container{
     max-width: 1380px;
     margin: 50px auto;
@@ -249,7 +249,7 @@ nav li .youtube{
 .card-3:hover {
     cursor: pointer;
 }
-/* play instantly styles here  */
+/* play instantly styles starts here  */
 .play-instantly-container{
     max-width: 1440px;
     margin: 120px auto;
@@ -284,6 +284,38 @@ nav li .youtube{
     top: 380px;
     left: -145px;
 }
+.play-games-container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 100px;
+    margin-top: 150px;
+}
+.play-games-img{
+    width: 60%;
+    position: relative;
+}
+.play-games-another-img{
+    position: absolute;
+    top: 400px;
+    right: -30px;
+}
+.play-games-content{
+    width: 40%;
+}
+.play-games-content-title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-games-content-description{
+    font-size: 18px;
+    line-height: 30px;
+    color: #534c64;
+}
+/* button section styles starts here  */
 .button-container{
     width: 100%;
     display: flex;
@@ -318,6 +350,7 @@ nav li .youtube{
 .btn:hover .btn-title{
     color: rgb(252, 11, 123);
 }
+/* footer styles starts here  */
 footer{
     width: 100%;
     height: 60vh;
@@ -460,15 +493,38 @@ footer{
         margin-left: 100px;
     }
     .play-ins-small-img{
-        width: 80%;
+        width: 60%;
         height: 200px;
         position: absolute;
-        top: 150px;
-        left: -80px;
+        top: 200px;
+        left: -60px;
     }
     .play-ins-small-img img{
         width: 50%;
     }
+    .play-games-container{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .play-games-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-games-img{
+        width: 100%;
+        position: relative;
+        margin-left: 20px;
+    }
+    .play-games-img img{
+        width: 70%;
+    }
+    .play-games-another-img{
+        width: 30%;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+    }
+    /* button styles starts here  */
     .button-container{
         width: 100%;
         height: 30vh;
@@ -620,6 +676,28 @@ footer{
     }
     .play-ins-small-img img{
         width: 50%;
+    }
+    .play-games-container{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .play-games-content{
+        width: 100%;
+        text-align: center;
+    }
+    .play-games-img{
+        width: 100%;
+        position: relative;
+        margin-left: 20px;
+    }
+    .play-games-img img{
+        width: 70%;
+    }
+    .play-games-another-img{
+        width: 30%;
+        position: absolute;
+        top: 360px;
+        right: 70px;
     }
     .button-container{
         width: 100%;
