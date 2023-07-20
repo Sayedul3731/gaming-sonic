@@ -90,7 +90,10 @@ nav li .youtube{
     background-color: #be4ef70d;
 }
 .banner-content{
-    margin-left: 240px;
+    margin-left: 265px;
+}
+.banner-img{
+    margin-right: 30px;
 }
 .banner-content-title-1{
     font-size: 45px;
@@ -137,8 +140,8 @@ nav li .youtube{
 }
 /* online games styles here  */
 .online-games-container{
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1380px;
+    margin: 50px auto;
 }
 .online-games-content{
     text-align: center;
@@ -157,6 +160,7 @@ nav li .youtube{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 .card{
     width: 340px;
@@ -175,6 +179,7 @@ nav li .youtube{
     position: absolute;
     top: 170px;
     right: 115px;  
+    display: none;
 }
 .play{
     width: 48px;
@@ -191,6 +196,12 @@ nav li .youtube{
     color: #FF42A5;
     font-size: 20px;
     font-weight: 600px;
+}
+.card-3:hover .watch-content{
+    display: inline;
+}
+.card-3:hover {
+    cursor: pointer;
 }
 /* play instantly styles here  */
 .play-instantly-container{
@@ -214,6 +225,7 @@ nav li .youtube{
 .play-instantly-content-desc{
     width: 350px;
     margin: 0 auto;
+    line-height: 26px;
 }
 .play-instantly-img{
     position: relative;
