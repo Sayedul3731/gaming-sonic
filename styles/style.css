@@ -257,6 +257,51 @@ nav li .youtube{
 .btn:hover .btn-title{
     color: rgb(252, 11, 123);
 }
+footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0B0223;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo img{
+    width: 86px;
+    height: 40px;
+}
+.gammer{
+    color: #FF42A5;
+}
+.footer-descriptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.footer-icons{
+    font-size: 35px;
+    margin-top: 40px;
+}
+.icon{
+    margin-right: 40px;
+}
+.footer-keywords{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.60);
+}
 
 
 
